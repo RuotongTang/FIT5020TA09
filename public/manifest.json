@@ -1,0 +1,40 @@
+{
+  "name": "Protect Your Skin",
+  "short_name": "UV Tracker",
+  "description": "Real-time UV tracker for Victoria, Australia. Check your skin damage risk instantly.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#3EA72D",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><circle cx='96' cy='96' r='88' fill='%233EA72D'/><circle cx='96' cy='36' r='14' fill='%23fff'/><circle cx='140' cy='52' r='14' fill='%23fff'/><circle cx='152' cy='96' r='14' fill='%23fff'/><circle cx='140' cy='140' r='14' fill='%23fff'/><circle cx='96' cy='156' r='14' fill='%23fff'/><circle cx='52' cy='140' r='14' fill='%23fff'/><circle cx='40' cy='96' r='14' fill='%23fff'/><circle cx='52' cy='52' r='14' fill='%23fff'/></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><circle cx='256' cy='256' r='235' fill='%233EA72D'/><circle cx='256' cy='80' r='37' fill='%23fff'/><circle cx='373' cy='139' r='37' fill='%23fff'/><circle cx='405' cy='256' r='37' fill='%23fff'/><circle cx='373' cy='373' r='37' fill='%23fff'/><circle cx='256' cy='432' r='37' fill='%23fff'/><circle cx='139' cy='373' r='37' fill='%23fff'/><circle cx='107' cy='256' r='37' fill='%23fff'/><circle cx='139' cy='139' r='37' fill='%23fff'/></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><circle cx='96' cy='96' r='88' fill='%233EA72D'/><circle cx='96' cy='36' r='14' fill='%23fff'/><circle cx='140' cy='52' r='14' fill='%23fff'/><circle cx='152' cy='96' r='14' fill='%23fff'/><circle cx='140' cy='140' r='14' fill='%23fff'/><circle cx='96' cy='156' r='14' fill='%23fff'/><circle cx='52' cy='140' r='14' fill='%23fff'/><circle cx='40' cy='96' r='14' fill='%23fff'/><circle cx='52' cy='52' r='14' fill='%23fff'/></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["health", "lifestyle"],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%233EA72D' width='540' height='720'/><text x='270' y='150' font-size='48' fill='white' text-anchor='middle' font-weight='bold'>Protect Your Skin</text><text x='270' y='250' font-size='72' fill='white' text-anchor='middle' font-weight='bold'>UV 6</text><text x='270' y='320' font-size='32' fill='white' text-anchor='middle'>HIGH RISK</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ]
+}
