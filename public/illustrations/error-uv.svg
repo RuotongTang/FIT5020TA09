@@ -1,0 +1,8 @@
+<svg width="360" height="220" viewBox="0 0 360 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="220" rx="18" fill="#FFF7F7"/>
+  <rect x="68" y="44" width="224" height="132" rx="16" fill="white" stroke="#FCA5A5"/>
+  <circle cx="180" cy="92" r="30" fill="#FEE2E2"/>
+  <path d="M180 74V97" stroke="#B91C1C" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="180" cy="112" r="4" fill="#B91C1C"/>
+  <text x="107" y="144" fill="#7F1D1D" font-family="Arial, sans-serif" font-size="14" font-weight="700">Could not load UV data</text>
+</svg>

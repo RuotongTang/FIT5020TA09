@@ -1,0 +1,11 @@
+<svg width="360" height="220" viewBox="0 0 360 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="220" rx="18" fill="#F8FAFC"/>
+  <circle cx="82" cy="64" r="22" fill="#FEF08A"/>
+  <path d="M66 95C54 95 44 104 44 116C44 128 54 138 66 138H122C136 138 148 127 148 113C148 99 136 88 122 88C117 88 112 89 108 92C103 83 93 77 82 77C71 77 61 84 57 95H66Z" fill="#E2E8F0"/>
+  <rect x="166" y="50" width="150" height="116" rx="14" fill="white" stroke="#CBD5E1"/>
+  <path d="M186 136L214 107L235 124L265 92L296 118" stroke="#0F766E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="214" cy="107" r="5" fill="#0F766E"/>
+  <circle cx="235" cy="124" r="5" fill="#0F766E"/>
+  <circle cx="265" cy="92" r="5" fill="#0F766E"/>
+  <text x="186" y="78" fill="#334155" font-family="Arial, sans-serif" font-size="14" font-weight="700">Live UV preview</text>
+</svg>

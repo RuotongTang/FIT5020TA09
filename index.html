@@ -8,6 +8,13 @@
       content="Real-time UV tracker for Victoria, Australia. Protect your skin with UV Index predictions."
     />
     <meta name="theme-color" content="#3EA72D" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap');
+    </style>
     <link rel="manifest" href="/manifest.json" />
     <link
       rel="apple-touch-icon"
@@ -25,7 +32,12 @@
         width: 100%;
         height: 100%;
         font-family:
-          -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+          'DM Sans',
+          'Plus Jakarta Sans',
+          -apple-system,
+          BlinkMacSystemFont,
+          'Segoe UI',
+          sans-serif;
       }
       body {
         background-color: #ffffff;
@@ -39,6 +51,8 @@
   </head>
   <body>
     <div id="app"></div>
+    <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

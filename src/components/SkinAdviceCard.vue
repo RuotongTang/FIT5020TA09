@@ -1,5 +1,6 @@
 <script setup>
 import { computed } from 'vue'
+import { Shield, Shirt, Info } from 'lucide-vue-next'
 
 const props = defineProps({
   skinType: { type: Object, required: true },
@@ -32,12 +33,12 @@ const clothingAdvice = computed(() => {
 
 <template>
   <div class="skin-advice-card">
-    <h2 class="section-title">🛡️ Advice for Your Skin</h2>
+    <h2 class="section-title">Advice for Your Skin</h2>
     <p class="skin-description">{{ skinType.description }}</p>
 
     <div class="advice-items">
       <div class="advice-item">
-        <span class="advice-icon">🧴</span>
+        <Shield :size="18" class="advice-icon" aria-hidden="true" />
         <div class="advice-body">
           <h3 class="advice-label">Sunscreen</h3>
           <p class="advice-text" v-html="sunscreenAdvice"></p>
@@ -45,7 +46,7 @@ const clothingAdvice = computed(() => {
       </div>
 
       <div class="advice-item">
-        <span class="advice-icon">👕</span>
+        <Shirt :size="18" class="advice-icon" aria-hidden="true" />
         <div class="advice-body">
           <h3 class="advice-label">What to Wear</h3>
           <p class="advice-text">{{ clothingAdvice }}</p>
@@ -53,7 +54,7 @@ const clothingAdvice = computed(() => {
       </div>
 
       <div class="advice-item">
-        <span class="advice-icon">💡</span>
+        <Info :size="18" class="advice-icon" aria-hidden="true" />
         <div class="advice-body">
           <h3 class="advice-label">Good to Know</h3>
           <p class="advice-text">{{ skinType.extraTip }}</p>
@@ -66,28 +67,22 @@ const clothingAdvice = computed(() => {
 <style scoped>
 .skin-advice-card {
   padding: 16px 18px;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.65) 0%, rgba(235, 255, 240, 0.5) 100%);
-  backdrop-filter: blur(20px) saturate(180%);
-  -webkit-backdrop-filter: blur(20px) saturate(180%);
-  border: 1px solid rgba(255, 255, 255, 0.7);
+  background: #ffffff;
+  border: 1px solid #d7e4d9;
   border-left: 4px solid #3ea72d;
-  border-radius: 16px;
-  box-shadow:
-    0 8px 32px rgba(62, 167, 45, 0.06),
-    inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  border-radius: 14px;
 }
 
 .section-title {
   font-size: 1rem;
-  font-weight: 600;
-  letter-spacing: -0.2px;
+  font-weight: 700;
   margin: 0 0 10px;
-  color: #2e2e4a;
+  color: #0f172a;
 }
 
 .skin-description {
-  font-size: 0.85rem;
-  color: #5e5e7e;
+  font-size: 0.9rem;
+  color: #334155;
   margin: 0 0 14px;
   line-height: 1.55;
   font-style: italic;
@@ -104,16 +99,13 @@ const clothingAdvice = computed(() => {
   align-items: flex-start;
   gap: 12px;
   padding: 10px 12px;
-  background: rgba(255, 255, 255, 0.35);
+  background: #f8fbf8;
   border-radius: 12px;
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
-  border: 1px solid rgba(255, 255, 255, 0.45);
+  border: 1px solid #e4ede6;
 }
 
 .advice-icon {
-  font-size: 1.3rem;
-  line-height: 1;
+  color: #166534;
   flex-shrink: 0;
   margin-top: 2px;
 }
@@ -124,28 +116,23 @@ const clothingAdvice = computed(() => {
 }
 
 .advice-label {
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: #2e2e4a;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #0f172a;
   margin: 0 0 4px;
   letter-spacing: 0.2px;
 }
 
 .advice-text {
-  font-size: 0.84rem;
-  color: #4a4a6a;
+  font-size: 0.9rem;
+  color: #1f2937;
   margin: 0;
-  line-height: 1.55;
+  line-height: 1.6;
 }
 
 /* Frosted glass highlight for key info */
 .advice-text :deep(strong) {
-  font-weight: 500;
-  color: #2e2e4a;
-  background: rgba(255, 255, 255, 0.5);
-  padding: 1px 6px;
-  border-radius: 6px;
-  box-decoration-break: clone;
-  -webkit-box-decoration-break: clone;
+  font-weight: 700;
+  color: #0f172a;
 }
 </style>
